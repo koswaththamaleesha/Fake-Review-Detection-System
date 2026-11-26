@@ -35,7 +35,8 @@ pnpm-debug.log*
 */.ipynb_checkpoints/
 
 # Large raw data files & local databases
-data/raw/
+data/
+!data/.gitkeep
 *.csv
 *.tsv
 *.parquet

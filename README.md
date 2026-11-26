@@ -33,8 +33,15 @@ This project aims to build a practical and explainable system that:
 
 ## 📊 Datasets
 
-- Deceptive Opinion Spam Corpus (Hotel Reviews)
-- Yelp Filtered Review Datasets
+Large dataset files are excluded from Git via `.gitignore` (`data/`). Download the datasets locally into `data/` using the links below:
+
+- **Deceptive Opinion Spam Corpus (Hotel Reviews)**
+  - Official archive (`op_spam_v1.4.zip`): https://myleott.com/op_spam_v1.4.zip ([Dataset page](https://myleott.com/op-spam.html))
+  - Kaggle CSV version: https://www.kaggle.com/datasets/rtatman/deceptive-opinion-spam-corpus
+- **Yelp Filtered Review Datasets**
+  - Official Stony Brook ODDS pages: [YelpChi](http://odds.cs.stonybrook.edu/yelpchi-dataset/) | [YelpZip](http://odds.cs.stonybrook.edu/yelpzip-dataset/)
+  - Yelp Chicago Review Text + Labels CSV (`yelp_reviews.csv`): https://raw.githubusercontent.com/darshandagly/Fake-Review-Detection/master/Data/df.csv
+  - Yelp Metadata & Graph CSVs (`YelpCSV`): https://github.com/likhithseera/SemanticWebMine-FakeReviewDetect/raw/main/DATA/YelpCSV-20240304T105840Z-001.zip
 - Additional public labelled fake review datasets for cross-dataset evaluation
 
 > Only publicly available research datasets will be used. No private or personal data is collected.
